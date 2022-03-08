@@ -7,7 +7,7 @@ public class BruteForce15649 {
 
         BruteForce15649.go(1, n, m);
     }
-
+    // ㄷㅏ시 풀기
     public static void go(int idx, int n, int m) {
         boolean[] isUsed = new boolean[10]; // 해당 인덱스(위치)를 사용했는지 체크
         int[] result = new int[10];     // 수열
