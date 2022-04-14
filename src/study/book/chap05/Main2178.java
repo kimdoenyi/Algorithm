@@ -46,7 +46,7 @@ public class Main2178 {
         // 방문 배열 초기화
         isVisited = new boolean[N][M];
         BFS(0,0);
-
+        System.out.println(array[N-1][M-1]);
     }
 
     static void BFS(int x, int y) {
