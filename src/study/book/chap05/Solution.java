@@ -17,7 +17,6 @@ public class Solution {
                 map.put(splitRecord[1], splitRecord[2]);
             }
         });
-
         Arrays.stream(record).forEach(item -> {
             String[] splitRecord = item.split(" ");
 
