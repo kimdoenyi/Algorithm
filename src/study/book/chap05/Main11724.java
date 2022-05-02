@@ -54,7 +54,6 @@ public class Main11724 {
 
     // DFS 재귀함수
     static void DFS(int v) {
-        // 방문한적 있으면 return
         if(isVisited[v]) {
             return;
         }
